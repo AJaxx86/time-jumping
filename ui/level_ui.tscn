@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://dv4uniovefa7t"]
+
+[node name="LevelUI" type="Control" unique_id=2050659018]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=1510996923]
+layout_mode = 0
+offset_right = 119.0
+offset_bottom = 56.0
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="OptionButton" type="OptionButton" parent="MarginContainer" unique_id=781780269]
+layout_mode = 2
