@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://7jufxmi84v7" path="res://ui/level_ui.gd" id="1_pf3gj"]
 
-[node name="LevelUI" type="Control" unique_id=2050659018]
+[node name="LevelUI" type="Control" unique_id=2050659018 groups=["LevelUI"]]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -22,3 +22,5 @@ theme_override_constants/margin_bottom = 10
 
 [node name="OptionButton" type="OptionButton" parent="MarginContainer" unique_id=781780269]
 layout_mode = 2
+
+[connection signal="item_selected" from="MarginContainer/OptionButton" to="." method="_on_event_selected"]
